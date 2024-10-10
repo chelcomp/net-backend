@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dapper" Version="2.0.143"/>
+        <PackageReference Include="Microsoft.Data.Sqlite" Version="7.0.9"/>
+        <PackageReference Include="SQLiteNetExtensions" Version="2.1.0"/>
+        <PackageReference Include="SQLiteNetExtensions.Async" Version="2.1.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
+    </ItemGroup>
+
+</Project>
